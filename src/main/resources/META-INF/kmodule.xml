@@ -1,0 +1,6 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="kie-base" default="true" eventProcessingMode="cloud" equalsBehavior="equality">
+    <ksession name="stateful-kie-session" type="stateful" default="true" clockType="realtime"/>
+    <ksession name="stateless-kie-session" type="stateless" default="false" clockType="realtime"/>
+  </kbase>
+</kmodule>

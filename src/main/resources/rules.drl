@@ -1,0 +1,9 @@
+package org.jboss.ddoyle.ruleflow.test;
+
+rule "FindStrings"
+ruleflow-group "find-strings"
+when
+	java.lang.String()
+then
+	System.out.println("Found a String.");
+end
